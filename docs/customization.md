@@ -70,13 +70,20 @@ $btn-primary-color: #0056b3;
 You can create custom layouts in the `_layouts` directory:
 
 ```html
+<!-- _layouts/custom.html -->
 ---
 layout: default
 ---
 <div class="custom-layout">
-  {{ content }}
+  {% raw %}{{ content }}{% endraw %}
   <div class="custom-sidebar">
-    {% include custom-sidebar.html %}
+    <!-- Your sidebar content here -->
+    <nav class="custom-nav">
+      <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+      </ul>
+    </nav>
   </div>
 </div>
 ```
