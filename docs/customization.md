@@ -223,34 +223,66 @@ search_exclude: true
 
 ### Basic Image
 
-You can add images to your documentation using standard Markdown syntax or with additional styling classes:
+You can add images to your documentation using standard Markdown syntax:
 
 ```markdown
-![Example image](/assets/images/example-image.png)
+![Example image](../assets/images/example-image.png)
 ```
+
+Below is the actual image:
+
+![Example image](../assets/images/example-image.png)
 
 ### Image with Styling
 
 Add custom classes to control image appearance:
 
 ```markdown
-![Example image with styling](/assets/images/example-image.png){: .img-example .border .shadow }
+![Example image with styling](../assets/images/example-image.png){: .border .shadow }
 ```
+
+Below is the styled image:
+
+![Example image with styling](../assets/images/example-image.png){: .border .shadow }
 
 ### Responsive Images
 
 Make images responsive to container width:
 
 ```markdown
-![Responsive example](/assets/images/example-image.png){: .img-fluid }
+![Responsive example](../assets/images/example-image.png){: .img-fluid }
 ```
+
+Below is the responsive image:
+
+![Responsive example](../assets/images/example-image.png){: .img-fluid }
 
 ### Image Alignment
 
-Control image alignment using utility classes:
+Control image alignment using utility classes. Here are some examples:
+
+Left aligned image with text:
+
+![Left aligned image](../assets/images/example-image.png){: .float-left .mr-2 }
+This text will wrap around the left-aligned image. The image is placed on the left side and the text flows around it. This demonstrates how the float-left class works with actual content.
+
+<div style="clear: both"></div>
+
+Center aligned image:
+
+![Center aligned image](../assets/images/example-image.png){: .d-block .mx-auto }
+
+Right aligned image with text:
+
+![Right aligned image](../assets/images/example-image.png){: .float-right .ml-2 }
+This text will wrap around the right-aligned image. The image is placed on the right side and the text flows around it. This demonstrates how the float-right class works with actual content.
+
+<div style="clear: both"></div>
+
+The code to achieve these alignments:
 
 ```markdown
-![Left aligned image](/assets/images/example-image.png){: .float-left .mr-2 }
-![Center aligned image](/assets/images/example-image.png){: .d-block .mx-auto }
-![Right aligned image](/assets/images/example-image.png){: .float-right .ml-2 }
+![Left aligned image](../assets/images/example-image.png){: .float-left .mr-2 }
+![Center aligned image](../assets/images/example-image.png){: .d-block .mx-auto }
+![Right aligned image](../assets/images/example-image.png){: .float-right .ml-2 }
 ``` 
