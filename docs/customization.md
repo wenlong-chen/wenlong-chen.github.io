@@ -217,4 +217,40 @@ layout: default
 title: Hidden Page
 search_exclude: true
 ---
+```
+
+## Image Usage
+
+### Basic Image
+
+You can add images to your documentation using standard Markdown syntax or with additional styling classes:
+
+```markdown
+![Example image](/assets/images/example-image.png)
+```
+
+### Image with Styling
+
+Add custom classes to control image appearance:
+
+```markdown
+![Example image with styling](/assets/images/example-image.png){: .img-example .border .shadow }
+```
+
+### Responsive Images
+
+Make images responsive to container width:
+
+```markdown
+![Responsive example](/assets/images/example-image.png){: .img-fluid }
+```
+
+### Image Alignment
+
+Control image alignment using utility classes:
+
+```markdown
+![Left aligned image](/assets/images/example-image.png){: .float-left .mr-2 }
+![Center aligned image](/assets/images/example-image.png){: .d-block .mx-auto }
+![Right aligned image](/assets/images/example-image.png){: .float-right .ml-2 }
 ``` 
