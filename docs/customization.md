@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
 Include it in your layout:
 
 ```html
-<script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
+<script src="{% raw %}{{ '/assets/js/custom.js' | relative_url }}{% endraw %}"></script>
 ```
 
 ### Custom Components
@@ -162,15 +162,15 @@ Create reusable components in `_includes` directory:
 
 ```html
 <!-- _includes/alert.html -->
-<div class="alert alert-{{ include.type }}">
-  {{ include.message }}
+<div class="alert alert-{% raw %}{{ include.type }}{% endraw %}">
+  {% raw %}{{ include.message }}{% endraw %}
 </div>
 ```
 
 Use the component in your pages:
 
 ```markdown
-{% include alert.html type="warning" message="This is a warning message" %}
+{% raw %}{% include alert.html type="warning" message="This is a warning message" %}{% endraw %}
 ```
 
 ### Custom Plugins
