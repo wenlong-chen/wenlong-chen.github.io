@@ -4,6 +4,9 @@ theme: just-the-docs
 
 url: https://wenlong-chen.github.io
 
+# Favicon settings
+favicon_ico: "/assets/images/favicon.ico"
+
 aux_links:
   "View on GitHub":
     - "https://github.com/wenlong-chen/wenlong-chen.github.io"
