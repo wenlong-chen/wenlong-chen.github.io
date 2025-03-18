@@ -13,7 +13,7 @@ This is a modern documentation site built with Just the Docs, Jekyll, and GitHub
 {: .fs-6 .fw-300 }
 
 [Get Started](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View on GitHub](https://github.com/yourusername/your-repo-name){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View on GitHub](https://github.com/wenlong-chen/wenlong-chen.github.io){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 

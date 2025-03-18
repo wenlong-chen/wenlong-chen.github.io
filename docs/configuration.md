@@ -30,7 +30,7 @@ theme: just-the-docs
 ### URL Configuration
 
 ```yaml
-url: https://username.github.io/repository
+url: https://wenlong-chen.github.io
 ```
 
 ### Navigation
@@ -39,7 +39,7 @@ url: https://username.github.io/repository
 # Aux links for the upper right navigation
 aux_links:
   "View on GitHub":
-    - "https://github.com/username/repository"
+    - "https://github.com/wenlong-chen/wenlong-chen.github.io"
 
 # Enable or disable the site search
 search_enabled: true
